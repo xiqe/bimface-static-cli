@@ -1,0 +1,39 @@
+.pagination {
+  height: 30px;
+  overflow: hidden;
+  margin-top:20px;
+  .turn {
+    display: inline-block;
+    width: 80px;
+    line-height: 28px;
+    box-sizing: border-box;
+    border:1px solid #0d93e5;
+    border-radius: 3px;
+    color:#0d93e5;
+    text-align: center;
+    cursor: pointer;
+    &.disable {
+      border:1px solid #ccc;
+      color:#ccc;
+      cursor: default;
+    }
+  }
+  .page-num {
+    display: inline-block;
+    padding:0 15px;
+    i {
+      color:#0d93e5;
+      font-style: normal;
+      font-weight: bold;
+      margin-right:5px;
+    }
+  }
+  .total {
+    display: inline-block;
+    margin-left:25px;
+    color:#666;
+    i {
+      font-style: normal;
+    }
+  }
+}
